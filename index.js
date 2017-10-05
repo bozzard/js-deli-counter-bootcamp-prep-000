@@ -19,7 +19,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
-/*
+/*  //version 1
 function currentLine(katzDeliLine) {
   var str = " ";
   if (katzDeliLine.length === 0) {
