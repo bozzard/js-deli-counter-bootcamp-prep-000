@@ -36,6 +36,7 @@ return (`The line is currently:${str}`);
 
 function currentLine(katzDeliLine) {
   console.log (katzDeliLine, !katzDeliLine.length);
-  if ( !katzDeliLine.length )
+  if ( !katzDeliLine.length ) {
   return "The line is currently empty." ;
+}
 }
