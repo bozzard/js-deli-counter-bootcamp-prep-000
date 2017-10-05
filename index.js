@@ -35,5 +35,5 @@ return (`The line is currently:${str}`);
 */
 
 function currentLine(katzDeliLine) {
-  console.log (!katzDeliLine.length);
+  console.log (katzDeliLine, !katzDeliLine.length);
 }
