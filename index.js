@@ -42,9 +42,9 @@ function currentLine(katzDeliLine) {
   }
 
   var temp = [];
-  for ( let i = 0; i < katzDeliLine.length; i++) {
+  for ( let i = 1; i < katzDeliLine.length; i++) {
     temp.push(``)
   }
-  
+
 
 }
