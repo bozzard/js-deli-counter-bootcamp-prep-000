@@ -45,6 +45,6 @@ function currentLine(katzDeliLine) {
   for ( let i = 0; i < katzDeliLine.length; i++) {
     temp.push(`${i+1}. ${katzDeliLine[i]}`);
   }
-  return (`The line is currently: `)
+  return (`The line is currently: ${temp}`)
 
 }
